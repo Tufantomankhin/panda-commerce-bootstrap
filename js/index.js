@@ -1,4 +1,14 @@
-// document.getElementById('btn-supply').style.backgroundColor = 'orange'
+document.getElementById('btn-supply').addEventListener('click', function () {
+        console.log('buttton clicked');
+        // function myFunction(event) {
+        //     if (document.getElementById('btn-supply').disabled = true) {
+        //         event.removeAtribute('disabled');
+        //     } 
+        //     else { document.getElementById('btn-supply').disabled = false;
+        //         event.setAtribute('disabled');
+        //     }
+        // }
+    })
 
 const buttons350 = document.querySelectorAll('.supply-350')
 for (const button350 of buttons350) {
